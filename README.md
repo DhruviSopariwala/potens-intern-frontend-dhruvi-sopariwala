@@ -59,3 +59,31 @@ The project focuses on thoughtful UX, bilingual accessibility, offline support, 
 npm install
 
 npm run dev
+
+## AI USE LOG
+
+### Cursor
+- Heavy usage throughout development
+- Used for:
+  - React architecture
+  - Tailwind setup
+  - PWA configuration
+  - Component scaffolding
+  - Web Speech API implementation
+  - UI refinement
+
+### ChatGPT
+- Medium to heavy usage
+- Used for:
+  - Project planning
+  - UX refinement suggestions
+  - Prompt engineering
+  - README structuring
+  - Performance optimization guidance
+
+### Claude
+- Light to medium usage
+- Used for:
+  - UI/UX critique
+  - Design refinement ideas
+  - Interaction suggestions
