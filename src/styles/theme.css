@@ -1,0 +1,64 @@
+@theme {
+  /* Civic palette — muted slate blues & warm neutrals */
+  --color-surface: #f5f7f9;
+  --color-surface-raised: #ffffff;
+  --color-surface-muted: #e8edf2;
+
+  --color-ink: #1a2b3c;
+  --color-ink-muted: #4d6275;
+  --color-ink-subtle: #7a8f9f;
+
+  --color-border: #d4dde6;
+  --color-border-strong: #b8c5d1;
+
+  --color-accent: #2d5f7a;
+  --color-accent-hover: #244f66;
+  --color-accent-subtle: #e4eef3;
+
+  --color-focus: #3d7a9e;
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+  --font-display: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  --text-display: clamp(1.75rem, 5vw, 2.5rem);
+  --text-title: clamp(1.375rem, 3.5vw, 1.75rem);
+  --text-heading: clamp(1.125rem, 2.5vw, 1.375rem);
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.04em;
+
+  /* Responsive spacing — mobile-first, scales up at md/lg */
+  --spacing-page-x: clamp(1rem, 4vw, 1.5rem);
+  --spacing-page-y: clamp(1.5rem, 5vw, 2.5rem);
+  --spacing-section: clamp(1.5rem, 5vw, 3rem);
+  --spacing-stack-xs: 0.25rem;
+  --spacing-stack-sm: 0.5rem;
+  --spacing-stack-md: 1rem;
+  --spacing-stack-lg: 1.5rem;
+  --spacing-stack-xl: 2rem;
+  --spacing-stack-2xl: 3rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  --shadow-sm: 0 1px 2px rgb(26 43 60 / 0.04);
+  --shadow-md: 0 4px 12px rgb(26 43 60 / 0.06);
+  --shadow-lg: 0 8px 24px rgb(26 43 60 / 0.08);
+
+  --max-width-content: 72rem;
+  --max-width-prose: 42rem;
+}

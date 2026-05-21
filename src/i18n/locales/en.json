@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Civic Services"
+  },
+  "offline": {
+    "title": "Offline",
+    "banner": "You can still use this app. Reports are saved on this device."
+  },
+  "language": {
+    "en": "English",
+    "hi": "Hindi"
+  },
+  "nav": {
+    "back": "Back",
+    "continue": "Continue",
+    "submit": "Submit request",
+    "startOver": "Submit another request"
+  },
+  "screens": {
+    "category": {
+      "title": "Select a category",
+      "subtitle": "Choose the type of issue or service you need.",
+      "helper": "Select one option below, then continue to the next step."
+    },
+    "details": {
+      "title": "Request details",
+      "subtitle": "Provide a brief description of your request.",
+      "helper": "Fields marked below are required to continue. Optional photos may help staff respond faster.",
+      "descriptionLabel": "Issue description",
+      "descriptionHelper": "Write clearly in everyday language. You may type or use voice input.",
+      "descriptionPlaceholder": "Describe the issue or request...",
+      "images": {
+        "title": "Photos (optional)",
+        "hint": "Add up to 3 images showing the issue or location.",
+        "add": "Add photos",
+        "limitReached": "Maximum photos added",
+        "remove": "Remove",
+        "empty": "No photos added yet."
+      },
+      "voice": {
+        "title": "Voice input",
+        "hint": "Tap the microphone and speak. Your words will appear in the description field.",
+        "listening": "Listening… tap again to stop.",
+        "listeningStatus": "Recording in progress",
+        "unsupported": "Voice input is not supported in this browser.",
+        "start": "Start voice input",
+        "stop": "Stop voice input",
+        "errors": {
+          "permission": "Microphone access was denied. Allow microphone permission and try again.",
+          "generic": "Voice input could not start. Please try again or type your description.",
+          "unsupported": "Voice input is not available in this browser."
+        }
+      }
+    },
+    "confirmation": {
+      "title": "Request submitted",
+      "subtitle": "Thank you. Your request has been received.",
+      "referenceLabel": "Reference number",
+      "referenceHint": "Keep this number for your records.",
+      "timestampLabel": "Submitted on",
+      "categoryLabel": "Category",
+      "imagesLabel": "Photos attached",
+      "savedLocally": "Saved locally on this device",
+      "submitAnother": "Submit another report"
+    }
+  },
+  "categories": {
+    "maintenance": {
+      "label": "Maintenance",
+      "description": "Roads, lighting, parks, and public infrastructure."
+    },
+    "sanitation": {
+      "label": "Sanitation",
+      "description": "Waste collection, drainage, and cleanliness."
+    },
+    "utilities": {
+      "label": "Utilities",
+      "description": "Water supply, power outages, and meter issues."
+    },
+    "permits": {
+      "label": "Permits & licenses",
+      "description": "Building permits, business licenses, and registrations."
+    }
+  }
+}

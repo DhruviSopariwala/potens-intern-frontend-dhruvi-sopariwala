@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Civic Services">
+  <rect width="32" height="32" rx="6" fill="#2d5f7a"/>
+  <path fill="#f5f7f9" d="M16 8 23 13.5V24H9V13.5Z"/>
+  <rect x="13.5" y="18.5" width="5" height="5.5" rx="1" fill="#e4eef3"/>
+</svg>
