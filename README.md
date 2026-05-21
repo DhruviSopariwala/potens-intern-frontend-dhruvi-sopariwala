@@ -1,16 +1,61 @@
-# React + Vite
+# Multilingual Civic-Style PWA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mobile-first Progressive Web App built for the Potens frontend internship assignment.
 
-Currently, two official plugins are available:
+The app allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Select a civic issue category
 
-## React Compiler
+- Describe an issue using text, image, or voice input
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Receive a locally stored confirmation reference ID
 
-## Expanding the ESLint configuration
+The project focuses on thoughtful UX, bilingual accessibility, offline support, and performance under constrained network conditions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Mobile-first responsive UI
+
+- English + Hindi bilingual support
+
+- Web Speech API voice input
+
+- Image upload support
+
+- localStorage persistence
+
+- Installable PWA
+
+- Offline functionality
+
+- Slow 3G optimized experience
+
+- Civic-style minimal design system
+
+---
+
+## Tech Stack
+
+- React
+
+- Vite
+
+- Tailwind CSS
+
+- React Router
+
+- vite-plugin-pwa
+
+- Web Speech API
+
+---
+
+## Running Locally
+
+```bash
+
+npm install
+
+npm run dev
